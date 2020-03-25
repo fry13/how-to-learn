@@ -8,9 +8,7 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-.link_no-decoration {
-  text-decoration: none;
-}
+
 
 
 /* HEADER */
@@ -62,6 +60,7 @@
 
 .header__link {
   color: #2F80ED;
+  text-decoration: none;
 }
 
 .header__link:visited {
@@ -218,6 +217,7 @@
   right: 48px;
   line-height: 51px;
   font-size: 36px;
+  text-decoration: none;
 }
 
 .feinman__link:visited {
@@ -327,6 +327,7 @@
 
 .footer__column-links_link {
   color: white;
+  text-decoration: none;
  }
 
 .footer__column-links_link:visited {
