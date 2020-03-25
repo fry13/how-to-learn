@@ -2,8 +2,8 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="../styles/normalize.css">
-  <link rel="stylesheet" href="../styles/style.css">
+  <link rel="stylesheet" href="/styles/normalize.css">
+  <link rel="stylesheet" href="/styles/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
 </head>
@@ -15,13 +15,13 @@
 
     <header class="header">
       <div class="logo logo_place_header"></div>
-      <h1 class="header__title zhir">Научиться учиться</h1>
+      <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">
         Какие современные и эффективные подходы к обучению вы
         можете использовать в своей жизни?
-        <a class="link header__link" href="#link-to-content">Узнать →</a>
+        <a class="link_no-decoration header__link" href="#link-to-content">Узнать →</a>
       </p>
-      <img class="header__main-illustration" src="../images/two_again.png"
+      <img class="header__main-illustration" src="/images/two_again.png"
         alt="Картина Федора Решетникова «Опять двойка»">
       <div class="header__square-pic"></div>
     </header>
@@ -31,24 +31,22 @@
 <!-- DESCRIPTION -->
 
       <section id="link-to-content" class="description">
-        <div class="description__two-columns">
-          <p class="description__two-columns-brief">
+        <div class="two-columns">
+          <h2 class="two-columns__brief">
             Главные проблемы в обучении
-          </p>
-          <div class="description__two-columns-main-text">
-            <p class="description__two-columns-paragraph">
+          </h2>
+          <div class="two-columns__main-text">
+            <p class="two-columns__paragraph">
               Ни в школе, ни в институте нас не учат тому, как правильно изучать материал.
               Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи,
               чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка
               быстро выветривается и не приносит пользы.
             </p>
-            <p class="description__two-columns-paragraph">
-              <!-- Я не использую класс two-columns__span-accent в CSS и добавил его только потому,
-                что так сказано в задании -->
-              <span class="zhir two-columns__span-accent">Вывод:</span>
+            <p class="two-columns__paragraph">
+              <span class="two-columns__span-accent">Вывод:</span>
               учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?
             </p>
-            <p class="description__two-columns-paragraph">
+            <p class="two-columns__paragraph">
               Конкретные техники и упражнения помогают изменить подход к обучению, сделать его
               эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.
             </p>
@@ -59,15 +57,15 @@
 <!-- DIGITS -->
 
       <section class="digits">
-        <h2 class="zhir section-title section-title_theme_white">
+        <h2 class="section-title">
           Цифры и факты
         </h2>
-        <h3 class="section-subtitle section-subtitle_theme_white">
+        <h3 class="section-subtitle">
           Про учёбу и мозг
         </h3>
 
         <div class="table table_theme_light">
-          <div class="table__cell table__cell_theme_light table__cell_1st-row_theme_light">
+          <div class="table__cell table__cell_theme_light">
             <h4 class="table__heading table__heading_theme_light">
               86 миллиардов
             </h4>
@@ -76,7 +74,7 @@
             </p>
           </div>
 
-          <div class="table__cell table__cell_theme_light table__cell_1st-row_theme_light">
+          <div class="table__cell table__cell_theme_light">
             <h4 class="table__heading table__heading_theme_light">
               2.1 миллиарда
             </h4>
@@ -88,7 +86,7 @@
             </p>
           </div>
 
-          <div class="table__cell table__cell_theme_light table__cell_1st-row_theme_light">
+          <div class="table__cell table__cell_theme_light">
             <h4 class="table__heading table__heading_theme_light">
               1000 терабайт
             </h4>
@@ -97,7 +95,7 @@
             </p>
           </div>
 
-          <div class="table__cell table__cell_theme_light table__cell_1st-row_theme_light">
+          <div class="table__cell table__cell_theme_light">
             <h4 class="table__heading table__heading_theme_light">
               500 триллионов
             </h4>
@@ -150,20 +148,20 @@
 <!-- FEINMAN -->
 
       <section class="feinman">
-        <h2 class="zhir feinman__title">Метод Фейнмана</h2>
+        <h2 class="feinman__title">Метод Фейнмана</h2>
         <h3 class="feinman__subtitle">Выучить и не забыть</h3>
-        <a class="feinman__link link" href="#">Подробнее →</a>
+        <a class="feinman__link link_no-decoration" href="#">Подробнее →</a>
       </section>
 
 <!-- FAUFMAN -->
 
       <section class="kaufman">
-        <h2 class="zhir section-title section-title_theme_dark">Принципы обучения</h2>
+        <img class="kaufman__triangle" alt="" src="/images/triangle.svg">
+        <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
         <h3 class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</h3>
-        <img class="kaufman__triangle" alt="" src="../images/triangle.svg">
 
         <div class="table table_theme_dark">
-          <div class="table__cell table__cell_1st-row_theme_dark table__cell_theme_dark">
+          <div class="table__cell table__cell_theme_dark">
             <h4 class="table__heading">
               1
             </h4>
@@ -172,7 +170,7 @@
             </p>
           </div>
 
-          <div class="table__cell table__cell_1st-row_theme_dark table__cell_theme_dark">
+          <div class="table__cell table__cell_theme_dark">
             <h4 class="table__heading">
               2
             </h4>
@@ -181,7 +179,7 @@
             </p>
           </div>
 
-          <div class="table__cell table__cell_1st-row_theme_dark table__cell_theme_dark">
+          <div class="table__cell table__cell_theme_dark">
             <h4 class="table__heading">
               3
             </h4>
@@ -190,7 +188,7 @@
             </p>
           </div>
 
-          <div class="table__cell table__cell_1st-row_theme_dark table__cell_theme_dark">
+          <div class="table__cell table__cell_theme_dark">
             <h4 class="table__heading">
               4
             </h4>
@@ -199,7 +197,7 @@
             </p>
           </div>
 
-          <div class="table__cell table__cell_1st-row_theme_dark table__cell_theme_dark">
+          <div class="table__cell table__cell_theme_dark">
             <h4 class="table__heading">
               5
             </h4>
@@ -260,40 +258,42 @@
 
     <footer class="footer">
       <div class="footer__columns">
-        <div class="footer__column_content_copyright">
+        <div class="footer__column-content_copyright">
           <div class="logo logo_place_footer"></div>
           <span class="footer__author">&copy; 2019. Alexey Feklyunin</span>
         </div>
         <div class="footer__column_content_info">
-          <h4 class="zhir footer__column-heading">О практикуме</h4>
+          <p class="footer__column-heading">О практикуме</p>
           <ul class="footer__column-links">
-            <li><a class="link footer__column-links_link" href="#">Главная</a></li>
-            <li><a class="link footer__column-links_link" href="#">Концепция</a></li>
-            <li><a class="link footer__column-links_link" href="#">Наставники</a></li>
+            <li><a class="link_no-decoration footer__column-links_link" href="#">Главная</a></li>
+            <li><a class="link_no-decoration footer__column-links_link" href="#">Концепция</a></li>
+            <li><a class="link_no-decoration footer__column-links_link" href="#">Наставники</a></li>
           </ul>
         </div>
-        <div class="footer__column_content_social">
-          <h4 class="zhir footer__column-heading">Соцсети</h4>
-          <ul class="footer__column-links">
-            <li>
-              <a class="link footer__column-links_link" target="_blank"
+        <div class="footer__column-content_social">
+          <p class="footer__column-heading">Соцсети</p>
+          <nav>
+            <ul class="footer__column-links">
+              <li>
+                <a class="link_no-decoration footer__column-links_link" target="_blank"
               href="https://facebook.com/yandex.praktikum/">
-                <img class="footer__social-icon" alt="" src="../images/facebook_white.svg">Facebook
-              </a>
-            </li>
-            <li>
-              <a class="link footer__column-links_link" target="_blank"
-              href="https://vk.com/yandex.praktikum">
-                <img class="footer__social-icon" alt="" src="../images/vk_white.svg">ВКонтакте
-              </a>
-            </li>
-            <li>
-              <a class="link footer__column-links_link" target="_blank"
-              href="https://www.instagram.com/yndx.praktikum/">
-                <img class="footer__social-icon" alt="" src="../images/instagram_white.svg">Instagram
-              </a>
-            </li>
-          </ul>
+                  <img class="footer__social-icon" alt="" src="/images/facebook_white.svg">Facebook
+                </a>
+              </li>
+              <li>
+                <a class="link_no-decoration footer__column-links_link" target="_blank"
+                href="https://vk.com/yandex.praktikum">
+                  <img class="footer__social-icon" alt="" src="/images/vk_white.svg">ВКонтакте
+                </a>
+              </li>
+              <li>
+                <a class="link_no-decoration footer__column-links_link" target="_blank"
+                href="https://www.instagram.com/yndx.praktikum/">
+                 <img class="footer__social-icon" alt="" src="/images/instagram_white.svg">Instagram
+                </a>
+              </li>
+            </ul>
+          </nav>
         </div>
       </div>
     </footer>
