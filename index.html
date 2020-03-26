@@ -2,8 +2,8 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="/styles/normalize.css">
-  <link rel="stylesheet" href="/styles/style.css">
+  <link rel="stylesheet" href="./styles/normalize.css">
+  <link rel="stylesheet" href="./styles/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
 </head>
@@ -21,7 +21,7 @@
         можете использовать в своей жизни?
         <a class="header__link" href="#link-to-content">Узнать →</a>
       </p>
-      <img class="header__main-illustration" src="/images/two_again.png"
+      <img class="header__main-illustration" src="./images/two_again.png"
         alt="Картина Федора Решетникова «Опять двойка»">
       <div class="header__square-pic"></div>
     </header>
@@ -64,21 +64,21 @@
           Про учёбу и мозг
         </h3>
 
-        <div class="table table_theme_light">
-          <div class="table__cell table__cell_theme_light">
-            <h4 class="table__heading table__heading_theme_light">
+        <div class="table">
+          <div class="table__cell">
+            <h4 class="table__heading">
               86 миллиардов
             </h4>
-            <p class="table__text table__text_theme_light">
+            <p class="table__text">
               Число нейронов в мозге человека
             </p>
           </div>
 
-          <div class="table__cell table__cell_theme_light">
-            <h4 class="table__heading table__heading_theme_light">
+          <div class="table__cell">
+            <h4 class="table__heading">
               2.1 миллиарда
             </h4>
-            <p class="table__text table__text_theme_light">
+            <p class="table__text">
               Число нуждающихся в повышении квалификации
             </p>
             <p class="table__bank">
@@ -86,29 +86,29 @@
             </p>
           </div>
 
-          <div class="table__cell table__cell_theme_light">
-            <h4 class="table__heading table__heading_theme_light">
+          <div class="table__cell">
+            <h4 class="table__heading">
               1000 терабайт
             </h4>
-            <p class="table__text table__text_theme_light">
+            <p class="table__text">
               Объём памяти человека
             </p>
           </div>
 
-          <div class="table__cell table__cell_theme_light">
-            <h4 class="table__heading table__heading_theme_light">
+          <div class="table__cell">
+            <h4 class="table__heading">
               500 триллионов
             </h4>
-            <p class="table__text table__text_theme_light">
+            <p class="table__text">
               Число ответственных за обучение нервных синапсов у взрослого человека
             </p>
           </div>
 
-          <div class="table__cell table__cell_theme_light">
-            <h4 class="table__heading table__heading_theme_light">
+          <div class="table__cell">
+            <h4 class="table__heading">
               420 миллионов
             </h4>
-            <p class="table__text table__text_theme_light">
+            <p class="table__text">
               Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства
             </p>
             <p class="table__bank">
@@ -116,29 +116,29 @@
             </p>
           </div>
 
-          <div class="table__cell table__cell_theme_light">
-            <h4 class="table__heading table__heading_theme_light">
+          <div class="table__cell">
+            <h4 class="table__heading">
               17–20 лет
             </h4>
-            <p class="table__text table__text_theme_light">
+            <p class="table__text">
               Пик обучаемости
             </p>
           </div>
 
-          <div class="table__cell table__cell_theme_light">
-            <h4 class="table__heading table__heading_theme_light">
+          <div class="table__cell">
+            <h4 class="table__heading">
               1885 год
             </h4>
-            <p class="table__text table__text_theme_light">
+            <p class="table__text">
               Открытие кривой забывания
             </p>
           </div>
 
-          <div class="table__cell table__cell_theme_light">
-            <h4 class="table__heading table__heading_theme_light">
+          <div class="table__cell">
+            <h4 class="table__heading">
               1889 год
             </h4>
-            <p class="table__text table__text_theme_light">
+            <p class="table__text">
               Открытие условного рефлекса
             </p>
           </div>
@@ -156,7 +156,7 @@
 <!-- FAUFMAN -->
 
       <section class="kaufman">
-        <img class="kaufman__triangle" alt="" src="/images/triangle.svg">
+        <img class="kaufman__triangle" alt="" src="./images/triangle.svg">
         <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
         <h3 class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</h3>
 
@@ -255,46 +255,58 @@
     </main>
 
 <!-- FOOTER -->
+<!-- извините, что я такой тупой, БЭМ пока даётся труднее всего.
+     сейчас, вроде бы, более-менее разобрался, но теперь у меня
+     остается много пустых классов:
+     .footer__column, в который должны вкладываться базовые стили
+     и два его модификатора .footer__column_content_info и
+     .footer__column_content_social -->
 
     <footer class="footer">
       <div class="footer__columns">
-        <div class="footer__column-content_copyright">
+
+        <div class="footer__column footer__column_content_copyright">
           <div class="logo logo_place_footer"></div>
           <span class="footer__author">&copy; 2019. Alexey Feklyunin</span>
         </div>
-        <div class="footer__column-content_info">
-          <p class="footer__column-heading">О практикуме</p>
-          <ul class="footer__column-links">
-            <li><a class="footer__column-links_link" href="#">Главная</a></li>
-            <li><a class="footer__column-links_link" href="#">Концепция</a></li>
-            <li><a class="footer__column-links_link" href="#">Наставники</a></li>
-          </ul>
-        </div>
-        <div class="footer__column-content_social">
-          <p class="footer__column-heading">Соцсети</p>
+
+        <div class="footer__column footer__column_content_info">
+          <h4 class="footer__column-heading">О практикуме</h4>
           <nav>
-            <ul class="footer__column-links">
+            <ul class="footer__column_links">
+              <li><a class="footer__link" href="#">Главная</a></li>
+              <li><a class="footer__link" href="#">Концепция</a></li>
+              <li><a class="footer__link" href="#">Наставники</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="footer__column footer__column_content_social">
+          <h4 class="footer__column-heading">Соцсети</h4>
+          <nav>
+            <ul class="footer__column_links">
               <li>
-                <a class="footer__column-links_link" target="_blank"
+                <a class="footer__link" target="_blank"
               href="https://facebook.com/yandex.praktikum/">
-                  <img class="footer__social-icon" alt="" src="/images/facebook_white.svg">Facebook
+                  <img class="footer__social-icon" alt="" src="./images/facebook_white.svg">Facebook
                 </a>
               </li>
               <li>
-                <a class="footer__column-links_link" target="_blank"
+                <a class="footer__link" target="_blank"
                 href="https://vk.com/yandex.praktikum">
-                  <img class="footer__social-icon" alt="" src="/images/vk_white.svg">ВКонтакте
+                  <img class="footer__social-icon" alt="" src="./images/vk_white.svg">ВКонтакте
                 </a>
               </li>
               <li>
-                <a class="footer__column-links_link" target="_blank"
+                <a class="footer__link" target="_blank"
                 href="https://www.instagram.com/yndx.praktikum/">
-                 <img class="footer__social-icon" alt="" src="/images/instagram_white.svg">Instagram
+                 <img class="footer__social-icon" alt="" src="./images/instagram_white.svg">Instagram
                 </a>
               </li>
             </ul>
           </nav>
         </div>
+
       </div>
     </footer>
   </div>

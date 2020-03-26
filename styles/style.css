@@ -9,8 +9,6 @@
 }
 
 
-
-
 /* HEADER */
 
 
@@ -32,7 +30,7 @@
 
 .logo_place_header {
   position: absolute;
-  background-image: url(/images/logo.svg);
+  background-image: url(../images/logo.svg);
   height: 32px;
   top: 30px;
   left: 64px;
@@ -169,6 +167,12 @@
   justify-content: space-between;
 }
 
+.table__cell {
+  margin-top: 60px;
+  width: 250px;
+  color: black;
+}
+
 .table__heading {
   margin: 0 0 20px 0;
   line-height: 1.15;
@@ -194,7 +198,7 @@
   position: relative;
   text-align: center;
   height: 790px;
-  background: url(/images/feinman.png) 867px 637px no-repeat;
+  background: url(../images/feinman.png) 867px 637px no-repeat;
   background-color: #f2f2f2;
   background-position: left bottom;
 }
@@ -253,24 +257,18 @@
 }
 
 
-/* TABLES */
+/* DARK THEME TABLE */
 
-
-.table__cell_theme_light {
-  margin-top: 60px;
-  width: 250px;
-  color: black;
-  }
-
-.table_theme_dark{
-  position: relative;
-}
 
 .table__cell_theme_dark {
   margin-top: 80px;
   width: 200px;
   color: white;
-  }
+}
+
+.table_theme_dark{
+  position: relative;
+}
 
 .section-title_theme_dark {
   color: white;
@@ -299,7 +297,7 @@
   height: 350px;
 }
 
-.footer__column-content_copyright {
+.footer__column_content_copyright {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -308,7 +306,7 @@
 }
 
 .logo_place_footer {
-  background-image: url(/images/logo_white.svg);
+  background-image: url(../images/logo_white.svg);
   background-size: cover;
   height: 35px;
 }
@@ -319,14 +317,14 @@
   font-size: 18px;
 }
 
-.footer__column-heading {
+.footer__column_heading {
   margin-bottom: 20px;
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
 }
 
-.footer__column-links {
+.footer__column_links {
   line-height: 30px;
   font-size: 18px;
   list-style: none;
@@ -334,16 +332,16 @@
   margin-bottom: 16px;
 }
 
-.footer__column-links_link {
+.footer__link {
   color: white;
   text-decoration: none;
  }
 
-.footer__column-links_link:visited {
+.footer__link:visited {
   color: white;
 }
 
-.footer__column-links_link:hover {
+.footer__link:hover {
   color: rgba(255,255,255,.8);
 }
 
