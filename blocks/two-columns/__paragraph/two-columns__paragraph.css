@@ -7,3 +7,7 @@
 .two-columns-paragraph:nth-of-type(3){
   margin:0;
 }
+
+.two-columns__paragraph:last-child {
+  margin: 0;
+}
